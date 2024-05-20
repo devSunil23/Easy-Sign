@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Container Styles */
+.sx-grow-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Typography Styles */
+h6 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form Main Group Field Styles */
+.form-mainGroupField {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Field Styles */
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+/* Text Input Styles */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Textarea Styles */
+.form-input-textArea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+}
+
+/* Checkbox Styles */
+.uiCheckbox-label {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+/* Template Field Styles */
+.templateField {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Signers List Styles */
+.signers-list {
+  list-style: none;
+  padding: 0;
+}
+
+.signers-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Add Button Styles */
+.addButton-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: blue;
+}
+
+/* Email Recipients Add Styles */
+.emailRecipients-add-wrapper {
+  margin-top: 20px;
+}
+
+/* Upload File Styles */
+.templateField-upload-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.upload-dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.upload-content-item {
+  margin-top: 10px;
+}
+
+/* Button Styles */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button-secondary {
+  background-color: #ccc;
+  color: #000;
+}
+
+.button-disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.button-text {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Arrow SVG Styles */
+/* Add your SVG styles here */

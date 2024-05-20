@@ -1,0 +1,9 @@
+.addViewerTextAndAdd {
+  display: flex;
+  align-items: center;
+}
+.addViewerButton {
+  cursor: pointer;
+  border: 2px dotted gray !important;
+  margin-top: 5px;
+}

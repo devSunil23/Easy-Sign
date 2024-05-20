@@ -1,0 +1,83 @@
+/* Your CSS file or styles-in-js */
+.css-79ws1d-MuiModal-root {
+  position: fixed;
+  z-index: 1300;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+.css-7ldjcq-MuiGrid-root {
+  width: 100% !important;
+  margin-left: 0px !important;
+}
+.css-11lq3yg-MuiGrid-root {
+  padding: 20px;
+}
+.pdf-container {
+  display: inline-block;
+  align-items: flex-start;
+}
+
+.pdf-preview {
+  flex: 1; /* Expands to fill available space */
+  margin-right: 20px; /* Add spacing between the preview and thumbnails */
+}
+
+/* Style the active thumbnail */
+.thumbnail.active {
+  border: 2px solid orange;
+}
+
+.thumbnail {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.thumbnail img {
+  border: 1px solid #ddd;
+  max-width: 100%;
+  height: auto;
+}
+.breadcrumbLink {
+  text-decoration: none;
+  cursor: pointer;
+}
+.breadcrumbLink.active {
+  color: #3b84d9; /* Change this to the color you want for the active state */
+}
+.signatureDrawStyle {
+  height: auto;
+  width: 100%;
+}
+.datePickerStyle {
+  /* Your custom styles here */
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 16px;
+  background-color: white;
+  color: #333;
+  width: 110px;
+  margin-left: 5px;
+  outline: none;
+  border: none;
+  /* Add more styles as needed */
+}
+.textFieldStyle {
+  width: 100px;
+  height: 10px;
+}
+
+.defautlCheckBoxStyle {
+  padding: 8px;
+  font-size: 24px;
+  color: #1976d2; /* Change the color as desired */
+  &.Mui-checked {
+    color: #1976d2; /* Change the color when checked as desired */
+    font-size: 24px;
+  }
+}

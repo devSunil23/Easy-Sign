@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        .bodyText {
+            margin: 40px 0;
+        }
+
+        .headingSigned {
+            font-size: 1.5em;
+            color: #333333;
+        }
+
+        .footerStyle {
+            background-color: #333333;
+            color: #ffffff;
+            margin-top: 15px;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .aTagStyle {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .aTagStyleSimple {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 14px;
+            padding: 10px 0;
+            margin-top: 10px;
+        }
+
+        .viewDocumentStyle,
+        .logoStyle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .documentViewAndDownloadSection {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://ci3.googleusercontent.com/proxy/RLxY4jS_k2M2mpBujcMWBi8ohLLVHm4ndYcabJ1LI-tg8Z0yNQZ2PYBzUHmTN4YOutX2A-AhIEm4WTc9LfCYGEigcOq2ZP5Pp8mKQLD8pZp0qxFF=s0-d-e1-ft#https://cdn.clikkle.com/images/clikkle/logo/2023/clikkle-text.png"
+            alt="logo" class="logoStyle">
+        <div class="bodyText">
+            <p>${senderName}(<a href="" class="aTagStyleSimple">${senderEmail}</a)>
+            </p>
+            <p>${senderMessage}</p>
+            <a href=${viewDocument} class="viewDocumentStyle" style="text-decoration: none;">
+                <button
+                    style="background-color: #007bff; color: #ffffff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                    Review & Sign
+                </button>
+            </a>
+        </div>
+        <hr>
+
+        <h3>Message:</h3>
+        <p>${optionalMessage}</p>
+        <hr>
+        <div class="documentViewAndDownloadSection">
+            <div>
+                <a href="" class="aTagStyleSimple">View Document</a>
+            </div>
+        </div>
+        <footer class="footerStyle">
+            © ${copyRightYear} Clikkle ! |<a href="" style="text-decoration: none;" class="aTagStyle"> Visit
+                Our Website</a>
+        </footer>
+    </div>
+</body>
+
+</html>

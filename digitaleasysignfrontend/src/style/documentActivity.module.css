@@ -1,0 +1,57 @@
+.documentActivityContainer {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.borderTable {
+  border: 1px solid #c2c0c0 !important;
+}
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(193, 191, 191);
+  align-items: center;
+  width: 100%;
+}
+.tableActivityContainer {
+  width: 100%;
+}
+.actionIcon {
+  width: 20px;
+  height: 20px;
+}
+.tableHeader {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(193, 191, 191);
+  padding: 20px 40px;
+  margin: 10px 0;
+  margin-top: 0;
+}
+.tableRow {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 20px 0;
+  padding: 30px 40px;
+  border-bottom: 1px solid rgb(193, 191, 191);
+}
+.tableRow:last-child {
+  border-bottom: none;
+}
+.firstColDiv {
+  width: 10%;
+}
+.secondColDiv {
+  width: 35%;
+}
+.thirdColDiv {
+  width: 65%;
+}
+.tableRowHead {
+  width: 100%;
+}
+.tableRowBody {
+  width: 100%;
+}

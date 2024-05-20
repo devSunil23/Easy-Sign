@@ -1,0 +1,21 @@
+.mainDivSendMails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+}
+.emailUserIconDiv {
+  display: flex;
+  align-items: center;
+}
+.shortNameDiv {
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 35px;
+}

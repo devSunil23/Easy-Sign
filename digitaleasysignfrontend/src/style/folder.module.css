@@ -1,0 +1,19 @@
+.selectedFolder {
+  background-color: #3b84d9 !important;
+  color: #ffff !important;
+}
+.folderModule {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+.folderIcon {
+  color: #3b84d9;
+}
+.selectedFolderIcon {
+  color: #ffff;
+}
+.selectedFileName {
+  color: #ffff !important;
+}

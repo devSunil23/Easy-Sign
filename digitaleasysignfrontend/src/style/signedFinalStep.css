@@ -1,0 +1,8 @@
+.mainDivSignedFinalStep {
+  display: grid;
+  width: 100%;
+  place-items: center;
+}
+.styleSingeDocument {
+  margin-top: 2px;
+}
