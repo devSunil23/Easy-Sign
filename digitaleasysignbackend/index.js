@@ -29,13 +29,14 @@ var documentRouter = require("./routes/documentRoute");
 var proxyRouter = require("./routes/proxyRoute");
 var templateRouter = require("./routes/templateRouter");
 var signRoute = require("./routes/signRoute");
+var authRoute = require("./routes/authRoute");
 
 // Routers
 app.use("/proxy", proxyRouter);
 app.use("/document", documentRouter);
 app.use("/template", templateRouter);
 app.use("/signatures", signRoute);
-
+app.use("/auth", authRoute);
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
 });

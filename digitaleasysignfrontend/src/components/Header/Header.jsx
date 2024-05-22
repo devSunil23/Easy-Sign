@@ -1,9 +1,10 @@
-import React, { createContext, useCallback, useContext } from 'react';
-import Navbar from '../Navbar/Navbar';
-import AuthorizationProvider from '../../hooks/Authorize';
-import { CssBaseline } from '@mui/material';
-import useSnack from '../../hooks/useSnack';
-import ThemeContextProvider from '../../style/theme';
+import React, { createContext, useCallback, useContext } from "react";
+import Navbar from "../Navbar/Navbar";
+import AuthorizationProvider from "../../hooks/Authorize";
+import { CssBaseline } from "@mui/material";
+import useSnack from "../../hooks/useSnack";
+import ThemeContextProvider from "../../style/theme";
+import { Outlet } from "react-router-dom";
 
 const HeaderContext = createContext();
 
@@ -15,7 +16,9 @@ const Header = ({ children }) => {
             <CssBaseline />
             <HeaderContext.Provider value={{ showMessage }}>
                 <AuthorizationProvider>
-                    <Navbar>{children}</Navbar>
+                    <Navbar>
+                        <Outlet />
+                    </Navbar>
                 </AuthorizationProvider>
                 {SnackBar}
             </HeaderContext.Provider>
